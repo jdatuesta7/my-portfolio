@@ -5,4 +5,4 @@ Soy desarrollador Full-Stack y soy Tecnólogo en gestión de sistemas informáti
 apasionado de la programación.
 
 Ver portafolio
-https://jdatuesta7.github.io/portfolio-jatuesta.io/
+https://jdatuesta7.github.io/my-portfolio
