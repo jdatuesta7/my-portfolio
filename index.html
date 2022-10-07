@@ -99,7 +99,7 @@
                     </p>
 
                     <div class="home__img">
-                        <img src="assets/img/me.png" alt="">
+                        <img class="lazyload" data-src="assets/img/me.png" alt="">
                     </div>
 
                 </div>
@@ -110,7 +110,7 @@
         <section class="about section" id="about">
             <h2 class="section__title">About Me</h2>
             <div class="about__container container grid">
-                <img class="about__img" src="assets/img/about.jpg" alt="">
+                <img class="about__img lazyload" data-src="assets/img/about.jpg" alt="">
 
                 <div class="about__data">
                     <div class="about__boxes">
@@ -160,12 +160,12 @@
                             Backend Technologies
                         </h3>
                         <div class="skills__box-content">
-                            <img class="skills__img" src="assets/img/skills_img/Node.js_logo.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/PHP-logo.svg.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/Express_logo.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/laravel_logo.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/Python-logo-notext.svg.png" alt="">
-                            <img class="skills__img skills_img-java" src="assets/img/skills_img/java_logo.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Node.js_logo.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/PHP-logo.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Express_logo.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/laravel_logo.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Python-logo-notext.svg.png" alt="">
+                            <img class="skills__img lazyload skills_img-java" data-src="assets/img/skills_img/java_logo.png" alt="">
                         </div>
                     </div>
 
@@ -174,12 +174,12 @@
                             Frontend Technologies
                         </h3>
                         <div class="skills__box-content">
-                            <img class="skills__img" src="assets/img/skills_img/HTML5_logo_and.svg.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/Bootstrap_logo.svg.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/css_logo.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/Tailwind_CSS_Logo.svg.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/JavaScript_logo.svg.png" alt="">
-                            <img class="skills__img" src="assets/img/skills_img/Angular_logo.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/HTML5_logo_and.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Bootstrap_logo.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/css_logo.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Tailwind_CSS_Logo.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/JavaScript_logo.svg.png" alt="">
+                            <img class="skills__img lazyload" data-src="assets/img/skills_img/Angular_logo.svg.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
 
             <div class="work__container container grid">
                 <div class="work__card mix laravel">
-                    <img src="assets/img/work_img/neuropsi.png" alt="" class="work__img">
+                    <img  data-src="assets/img/work_img/neuropsi.png" alt="" class="work__img lazyload">
 
                     <h3 class="work__title">Neuropsi</h3>
 
@@ -209,7 +209,7 @@
                 </div>
 
                 <div class="work__card mix angular-node">
-                    <img src="assets/img/work_img/pmi.png" alt="" class="work__img">
+                    <img data-src="assets/img/work_img/pmi.png" alt="" class="work__img lazyload">
 
                     <h3 class="work__title">PMI</h3>
 
@@ -219,7 +219,7 @@
                 </div>
 
                 <div class="work__card mix angular-node">
-                    <img src="assets/img/work_img/ecommerce_central-park.png" alt="" class="work__img">
+                    <img data-src="assets/img/work_img/ecommerce_central-park.png" alt="" class="work__img lazyload">
 
                     <h3 class="work__title">Ecommerce</h3>
 
@@ -229,7 +229,7 @@
                 </div>
 
                 <div class="work__card mix angular-laravel">
-                    <img src="assets/img/work_img/vfm.png" alt="" class="work__img">
+                    <img data-src="assets/img/work_img/vfm.png" alt="" class="work__img lazyload">
 
                     <h3 class="work__title">Vehicle fleet manage</h3>
 
@@ -243,26 +243,25 @@
             <div class="modal-container">
                 <div class="modal modal-close">
                     <p class="btn-modal-close">X</p>
-                    <!-- <video class="item-modal" autoplay controls src="assets/videos/neuropsi-project.m4v"></video> -->
-                    <iframe class="item-modal" src="https://www.youtube.com/embed/M7EBmB7Ayf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="item-modal lazyload" data-src="https://www.youtube.com/embed/M7EBmB7Ayf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="modal-container">
                 <div class="modal modal-close">
                     <p class="btn-modal-close">X</p>
-                    <img class="item-modal" src="assets/img/work_img/pmi.png" alt="">
+                    <img class="item-modal lazyload" data-src="assets/img/work_img/pmi.png" alt="">
                 </div>
             </div>
             <div class="modal-container">
                 <div class="modal modal-close">
                     <p class="btn-modal-close">X</p>
-                    <img class="item-modal" src="assets/img/work_img/ecommerce_central-park.png" alt="">
+                    <img class="item-modal lazyload" data-src="assets/img/work_img/ecommerce_central-park.png" alt="">
                 </div>
             </div>
             <div class="modal-container">
                 <div class="modal modal-close">
                     <p class="btn-modal-close">X</p>
-                    <img class="item-modal" src="assets/img/work_img/vfm.png" alt="">
+                    <img class="item-modal lazyload" data-src="assets/img/work_img/vfm.png" alt="">
                 </div>
             </div>
         </section>
@@ -356,6 +355,9 @@
 
     <!--=============== MIXITUP FILTER ===============-->
     <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== LAZYSIZES ===============-->
+    <script src="assets/js/lazysizes.min.js" async=""></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
