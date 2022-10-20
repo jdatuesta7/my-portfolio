@@ -232,6 +232,10 @@ img {
     display: flex;
 }
 
+.nav__logo > img {
+    width: 20%;
+}
+
 .nav__toggle {
     font-size: 1.75rem;
     cursor: pointer;
@@ -775,6 +779,10 @@ img {
     .modal {
         width: 80%;
         height: 50%;
+    }
+
+    .nav__logo > img {
+        width: 30%;
     }
 }
 
